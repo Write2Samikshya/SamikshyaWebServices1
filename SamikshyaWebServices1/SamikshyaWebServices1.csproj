@@ -67,17 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Addition1.asmx" />
+    <Content Include="Addition1Webservices.asmx" />
     <Content Include="CalculatorWebService.asmx" />
+    <Content Include="Multiplication_WebServices.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition1.asmx.cs">
-      <DependentUpon>Addition1.asmx</DependentUpon>
+    <Compile Include="Addition1Webservices.asmx.cs">
+      <DependentUpon>Addition1Webservices.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CalculatorWebService.asmx.cs">
       <DependentUpon>CalculatorWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Multiplication_WebServices.asmx.cs">
+      <DependentUpon>Multiplication_WebServices.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
