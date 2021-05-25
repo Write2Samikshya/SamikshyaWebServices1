@@ -23,6 +23,7 @@ namespace SamikshyaWebServices1
             return "Hello World";
         }
 
+        [WebMethod]
         public int  Addition(int a, int b)
         {
             return a + b;
